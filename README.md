@@ -46,65 +46,7 @@ event_manager/
 
 🗄️ База данных
 Файл events.db создаётся автоматически при первом запуске
-
 Поле date хранится в типе Date, а не строке
-
-## 🛠️ Установка и запуск
-
-### Требования
-- Python 3.9+
-- pip (обычно идёт с Python)
-
-### Шаги установки
-1. Скачайте или клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/your-username/event_manager.git
-   cd event_manager
-   ```
-
-2. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Запустите приложение:
-   ```bash
-   python app.py
-   ```
-
-4. Откройте браузер и перейдите на `http://127.0.0.1:5000`
-
-## 📤 Загрузка на GitHub
-
-Если Git ещё не установлен, скачайте с [git-scm.com](https://git-scm.com/download/win)
-
-### Команды для загрузки проекта на GitHub:
-```powershell
-# Перейдите в папку проекта
-cd "c:\Users\EVA\Desktop\Папка с работами\event_manager"
-
-# Инициализируйте репозиторий
-git init
-
-# Добавьте все файлы
-git add .
-
-# Создайте первый коммит
-git commit -m "Initial commit: Event Manager app"
-
-# Создайте репозиторий на GitHub (github.com -> New repository)
-# Скопируйте URL репозитория и выполните:
-git remote add origin https://github.com/your-username/event_manager.git
-
-# Отправьте код на GitHub
-git push -u origin main
-```
-
-Если используете ветку `master` вместо `main`:
-```powershell
-git branch -M main
-git push -u origin main
-```
 
 ## 📋 Дополнительно
 
